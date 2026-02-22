@@ -1,0 +1,150 @@
+2026-02-21 19:00:53,522 - __main__ - INFO - ✅ Variables de entorno cargadas correctamente
+2026-02-21 19:00:53,567 - __main__ - INFO - ✅ Conexión exitosa con PostgreSQL
+2026-02-21 19:00:53,589 - __main__ - INFO - Iniciando generación de 200 clientes sintéticos
+2026-02-21 19:00:53,639 - __main__ - INFO - ✅ 200 clientes generados exitosamente
+2026-02-21 19:00:53,641 - __main__ - INFO -   - IDs únicos verificados: True
+2026-02-21 19:00:53,648 - __main__ - INFO -   - Sin valores NULL: True
+2026-02-21 19:00:53,653 - __main__ - INFO - Campos de auditoría agregados para período 20260221
+2026-02-21 19:00:53,654 - __main__ - INFO - Shape del DataFrame: (200, 15)
+2026-02-21 19:00:53,679 - __main__ - INFO - ✅ Archivo guardado: ../data/raw/zr_fake_cli_datos_clientes.csv (34.91 KB)
+2026-02-21 19:00:53,736 - __main__ - INFO - Cargando datos a Zona Raw...
+2026-02-21 19:00:53,738 - __main__ - INFO - Iniciando carga: zr_cli.zr_fake_cli_datos_clientes
+2026-02-21 19:00:53,739 - __main__ - INFO -   - Registros: 200
+2026-02-21 19:00:53,741 - __main__ - INFO -   - Columnas: 15
+2026-02-21 19:00:53,888 - __main__ - INFO - ✅ Tabla creada: zr_cli.zr_fake_cli_datos_clientes
+2026-02-21 19:00:53,908 - __main__ - INFO - ✅ Clave primaria agregada: cliente_id
+2026-02-21 19:00:53,909 - __main__ - INFO - ✅ Carga completada exitosamente
+2026-02-21 19:00:53,952 - __main__ - INFO - Iniciando transformación a Zona Curada
+2026-02-21 19:00:53,997 - __main__ - INFO - ✅ Tabla reflejada: zr_cli.zr_fake_cli_datos_clientes
+2026-02-21 19:00:54,043 - __main__ - INFO - ✅ 200 registros cargados desde PostgreSQL
+2026-02-21 19:00:54,048 - __main__ - INFO - ✅ Columnas renombradas: 14 campos mapeados
+2026-02-21 19:00:54,059 - __main__ - INFO - ✅ Transformaciones aplicadas
+2026-02-21 19:00:54,079 - __main__ - INFO - ✅ Transformación completada. Shape: (200, 15)
+2026-02-21 19:00:54,114 - __main__ - INFO - ✅ Archivo guardado: ../data/curada/zc_cli_datos_clientes.csv (35.02 KB)
+2026-02-21 19:00:54,135 - __main__ - INFO - Cargando datos a Zona Curada...
+2026-02-21 19:00:54,136 - __main__ - INFO - Iniciando carga: zc_cli.zc_cli_datos_clientes
+2026-02-21 19:00:54,137 - __main__ - INFO -   - Registros: 200
+2026-02-21 19:00:54,139 - __main__ - INFO -   - Columnas: 15
+2026-02-21 19:00:54,211 - __main__ - INFO - ✅ Tabla creada: zc_cli.zc_cli_datos_clientes
+2026-02-21 19:00:54,224 - __main__ - INFO - ✅ Clave primaria agregada: "codigoSecuencialCliente"
+2026-02-21 19:00:54,227 - __main__ - INFO - ✅ Carga completada exitosamente
+2026-02-21 19:00:54,249 - __main__ - INFO - Generando dimensión optimizada de clientes
+2026-02-21 19:00:54,265 - __main__ - INFO - ✅ Dimensión generada: (200, 12)
+2026-02-21 19:00:54,292 - __main__ - INFO - ✅ Archivo guardado: ../data/productiva/td_datos_clientes.csv (22.13 KB)
+2026-02-21 19:00:54,330 - __main__ - INFO - Cargando datos a Zona Productiva...
+2026-02-21 19:00:54,335 - __main__ - INFO - Iniciando carga: zp.td_datos_clientes
+2026-02-21 19:00:54,337 - __main__ - INFO -   - Registros: 200
+2026-02-21 19:00:54,338 - __main__ - INFO -   - Columnas: 12
+2026-02-21 19:00:54,414 - __main__ - INFO - ✅ Tabla creada: zp.td_datos_clientes
+2026-02-21 19:00:54,425 - __main__ - INFO - ✅ Clave primaria agregada: "codigoSecuencialCliente"
+2026-02-21 19:00:54,427 - __main__ - INFO - ✅ Carga completada exitosamente
+2026-02-21 19:00:54,432 - __main__ - INFO - ✅ Dimensión de Clientes cargada exitosamente en PostgreSQL
+2026-02-21 19:00:54,452 - __main__ - INFO - --- Iniciando limpieza de recursos ---
+2026-02-21 19:00:54,455 - __main__ - INFO - ✅ Conexión 'conn' cerrada
+2026-02-21 19:00:54,457 - __main__ - INFO - ✅ Engine 'engine' dispuesto
+2026-02-21 19:00:54,458 - __main__ - INFO - 🔌 Conexión a PostgreSQL cerrada correctamente
+2026-02-21 19:00:54,464 - __main__ - INFO - Eliminando 2 DataFrames: df_clientes, df_db_clientes
+2026-02-21 19:00:54,467 - __main__ - INFO - 🗑️ DataFrames eliminados de la memoria
+2026-02-21 19:00:54,622 - __main__ - INFO - ✅ Recolección de basura completada
+2026-02-21 19:00:54,623 - __main__ - INFO - 🧹 Memoria RAM optimizada
+2026-02-21 19:00:54,625 - __main__ - INFO - --- Limpieza finalizada ---
+2026-02-21 19:17:44,500 - __main__ - INFO - ✅ Variables de entorno cargadas correctamente
+2026-02-21 19:17:44,537 - __main__ - INFO - ✅ Conexión exitosa con PostgreSQL
+2026-02-21 19:17:44,569 - __main__ - INFO - Iniciando generación de 200 clientes sintéticos
+2026-02-21 19:17:44,595 - __main__ - INFO - ✅ 200 clientes generados exitosamente
+2026-02-21 19:17:44,596 - __main__ - INFO -   - IDs únicos verificados: True
+2026-02-21 19:17:44,597 - __main__ - INFO -   - Sin valores NULL: True
+2026-02-21 19:17:44,600 - __main__ - INFO - Campos de auditoría agregados para período 20260221
+2026-02-21 19:17:44,602 - __main__ - INFO - Shape del DataFrame: (200, 15)
+2026-02-21 19:17:44,645 - __main__ - INFO - ✅ Archivo guardado: ../data/raw/zr_fake_cli_datos_clientes.csv (34.91 KB)
+2026-02-21 19:17:44,708 - __main__ - INFO - Cargando datos a Zona Raw...
+2026-02-21 19:17:44,714 - __main__ - INFO - Iniciando carga: zr_cli.zr_fake_cli_datos_clientes
+2026-02-21 19:17:44,736 - __main__ - INFO -   - Registros: 200
+2026-02-21 19:17:44,738 - __main__ - INFO -   - Columnas: 15
+2026-02-21 19:17:45,009 - __main__ - INFO - ✅ Tabla creada: zr_cli.zr_fake_cli_datos_clientes
+2026-02-21 19:17:45,026 - __main__ - INFO - ✅ Clave primaria agregada: cliente_id
+2026-02-21 19:17:45,034 - __main__ - INFO - ✅ Carga completada exitosamente
+2026-02-21 19:17:45,063 - __main__ - INFO - Iniciando transformación a Zona Curada
+2026-02-21 19:17:45,088 - __main__ - INFO - ✅ Tabla reflejada: zr_cli.zr_fake_cli_datos_clientes
+2026-02-21 19:17:45,104 - __main__ - INFO - ✅ 200 registros cargados desde PostgreSQL
+2026-02-21 19:17:45,107 - __main__ - INFO - ✅ Columnas renombradas: 14 campos mapeados
+2026-02-21 19:17:45,110 - __main__ - INFO - ✅ Transformaciones aplicadas
+2026-02-21 19:17:45,122 - __main__ - INFO - ✅ Transformación completada. Shape: (200, 15)
+2026-02-21 19:17:45,176 - __main__ - INFO - ✅ Archivo guardado: ../data/curada/zc_cli_datos_clientes.csv (35.02 KB)
+2026-02-21 19:17:45,208 - __main__ - INFO - Cargando datos a Zona Curada...
+2026-02-21 19:17:45,209 - __main__ - INFO - Iniciando carga: zc_cli.zc_cli_datos_clientes
+2026-02-21 19:17:45,209 - __main__ - INFO -   - Registros: 200
+2026-02-21 19:17:45,210 - __main__ - INFO -   - Columnas: 15
+2026-02-21 19:17:45,306 - __main__ - INFO - ✅ Tabla creada: zc_cli.zc_cli_datos_clientes
+2026-02-21 19:17:45,319 - __main__ - INFO - ✅ Clave primaria agregada: "codigoSecuencialCliente"
+2026-02-21 19:17:45,320 - __main__ - INFO - ✅ Carga completada exitosamente
+2026-02-21 19:17:45,350 - __main__ - INFO - Generando dimensión optimizada de clientes
+2026-02-21 19:17:45,361 - __main__ - INFO - ✅ Dimensión generada: (200, 12)
+2026-02-21 19:17:45,399 - __main__ - INFO - ✅ Archivo guardado: ../data/productiva/td_datos_clientes.csv (22.13 KB)
+2026-02-21 19:17:45,422 - __main__ - INFO - Cargando datos a Zona Productiva...
+2026-02-21 19:17:45,427 - __main__ - INFO - Iniciando carga: zp.td_datos_clientes
+2026-02-21 19:17:45,429 - __main__ - INFO -   - Registros: 200
+2026-02-21 19:17:45,431 - __main__ - INFO -   - Columnas: 12
+2026-02-21 19:17:45,548 - __main__ - INFO - ✅ Tabla creada: zp.td_datos_clientes
+2026-02-21 19:17:45,562 - __main__ - INFO - ✅ Clave primaria agregada: "codigoSecuencialCliente"
+2026-02-21 19:17:45,563 - __main__ - INFO - ✅ Carga completada exitosamente
+2026-02-21 19:17:45,566 - __main__ - INFO - ✅ Dimensión de Clientes cargada exitosamente en PostgreSQL
+2026-02-21 19:17:45,603 - __main__ - INFO - --- Iniciando limpieza de recursos ---
+2026-02-21 19:17:45,604 - __main__ - INFO - ✅ Conexión 'conn' cerrada
+2026-02-21 19:17:45,607 - __main__ - INFO - ✅ Engine 'engine' dispuesto
+2026-02-21 19:17:45,612 - __main__ - INFO - 🔌 Conexión a PostgreSQL cerrada correctamente
+2026-02-21 19:17:45,613 - __main__ - INFO - Eliminando 2 DataFrames: df_clientes, df_db_clientes
+2026-02-21 19:17:45,614 - __main__ - INFO - 🗑️ DataFrames eliminados de la memoria
+2026-02-21 19:17:45,823 - __main__ - INFO - ✅ Recolección de basura completada
+2026-02-21 19:17:45,824 - __main__ - INFO - 🧹 Memoria RAM optimizada
+2026-02-21 19:17:45,824 - __main__ - INFO - --- Limpieza finalizada ---
+2026-02-21 19:17:59,688 - __main__ - INFO - ✅ Variables de entorno cargadas correctamente
+2026-02-21 19:17:59,743 - __main__ - INFO - ✅ Conexión exitosa con PostgreSQL
+2026-02-21 19:17:59,782 - __main__ - INFO - Iniciando generación de 500 clientes sintéticos
+2026-02-21 19:17:59,868 - __main__ - INFO - ✅ 500 clientes generados exitosamente
+2026-02-21 19:17:59,870 - __main__ - INFO -   - IDs únicos verificados: True
+2026-02-21 19:17:59,873 - __main__ - INFO -   - Sin valores NULL: True
+2026-02-21 19:17:59,889 - __main__ - INFO - Campos de auditoría agregados para período 20260221
+2026-02-21 19:17:59,893 - __main__ - INFO - Shape del DataFrame: (500, 15)
+2026-02-21 19:17:59,924 - __main__ - INFO - ✅ Archivo guardado: ../data/raw/zr_fake_cli_datos_clientes.csv (86.94 KB)
+2026-02-21 19:18:00,007 - __main__ - INFO - Cargando datos a Zona Raw...
+2026-02-21 19:18:00,008 - __main__ - INFO - Iniciando carga: zr_cli.zr_fake_cli_datos_clientes
+2026-02-21 19:18:00,018 - __main__ - INFO -   - Registros: 500
+2026-02-21 19:18:00,019 - __main__ - INFO -   - Columnas: 15
+2026-02-21 19:18:00,209 - __main__ - INFO - ✅ Tabla creada: zr_cli.zr_fake_cli_datos_clientes
+2026-02-21 19:18:00,221 - __main__ - INFO - ✅ Clave primaria agregada: cliente_id
+2026-02-21 19:18:00,225 - __main__ - INFO - ✅ Carga completada exitosamente
+2026-02-21 19:18:00,258 - __main__ - INFO - Iniciando transformación a Zona Curada
+2026-02-21 19:18:00,283 - __main__ - INFO - ✅ Tabla reflejada: zr_cli.zr_fake_cli_datos_clientes
+2026-02-21 19:18:00,311 - __main__ - INFO - ✅ 500 registros cargados desde PostgreSQL
+2026-02-21 19:18:00,319 - __main__ - INFO - ✅ Columnas renombradas: 14 campos mapeados
+2026-02-21 19:18:00,324 - __main__ - INFO - ✅ Transformaciones aplicadas
+2026-02-21 19:18:00,345 - __main__ - INFO - ✅ Transformación completada. Shape: (500, 15)
+2026-02-21 19:18:00,441 - __main__ - INFO - ✅ Archivo guardado: ../data/curada/zc_cli_datos_clientes.csv (87.05 KB)
+2026-02-21 19:18:00,500 - __main__ - INFO - Cargando datos a Zona Curada...
+2026-02-21 19:18:00,506 - __main__ - INFO - Iniciando carga: zc_cli.zc_cli_datos_clientes
+2026-02-21 19:18:00,507 - __main__ - INFO -   - Registros: 500
+2026-02-21 19:18:00,508 - __main__ - INFO -   - Columnas: 15
+2026-02-21 19:18:00,670 - __main__ - INFO - ✅ Tabla creada: zc_cli.zc_cli_datos_clientes
+2026-02-21 19:18:00,681 - __main__ - INFO - ✅ Clave primaria agregada: "codigoSecuencialCliente"
+2026-02-21 19:18:00,684 - __main__ - INFO - ✅ Carga completada exitosamente
+2026-02-21 19:18:00,707 - __main__ - INFO - Generando dimensión optimizada de clientes
+2026-02-21 19:18:00,715 - __main__ - INFO - ✅ Dimensión generada: (500, 12)
+2026-02-21 19:18:00,772 - __main__ - INFO - ✅ Archivo guardado: ../data/productiva/td_datos_clientes.csv (54.94 KB)
+2026-02-21 19:18:00,812 - __main__ - INFO - Cargando datos a Zona Productiva...
+2026-02-21 19:18:00,816 - __main__ - INFO - Iniciando carga: zp.td_datos_clientes
+2026-02-21 19:18:00,826 - __main__ - INFO -   - Registros: 500
+2026-02-21 19:18:00,833 - __main__ - INFO -   - Columnas: 12
+2026-02-21 19:18:01,078 - __main__ - INFO - ✅ Tabla creada: zp.td_datos_clientes
+2026-02-21 19:18:01,124 - __main__ - INFO - ✅ Clave primaria agregada: "codigoSecuencialCliente"
+2026-02-21 19:18:01,127 - __main__ - INFO - ✅ Carga completada exitosamente
+2026-02-21 19:18:01,128 - __main__ - INFO - ✅ Dimensión de Clientes cargada exitosamente en PostgreSQL
+2026-02-21 19:18:01,225 - __main__ - INFO - --- Iniciando limpieza de recursos ---
+2026-02-21 19:18:01,243 - __main__ - INFO - ✅ Conexión 'conn' cerrada
+2026-02-21 19:18:01,255 - __main__ - INFO - ✅ Engine 'engine' dispuesto
+2026-02-21 19:18:01,263 - __main__ - INFO - 🔌 Conexión a PostgreSQL cerrada correctamente
+2026-02-21 19:18:01,274 - __main__ - INFO - Eliminando 2 DataFrames: df_clientes, df_db_clientes
+2026-02-21 19:18:01,279 - __main__ - INFO - 🗑️ DataFrames eliminados de la memoria
+2026-02-21 19:18:01,660 - __main__ - INFO - ✅ Recolección de basura completada
+2026-02-21 19:18:01,663 - __main__ - INFO - 🧹 Memoria RAM optimizada
+2026-02-21 19:18:01,665 - __main__ - INFO - --- Limpieza finalizada ---

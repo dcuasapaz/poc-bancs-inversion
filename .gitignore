@@ -1,5 +1,15 @@
-venv/
-*.csv
-*.parquet
-.ipynb_checkpoints/
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Datos y Configuración (¡No subir credenciales!)
+.env
+data/*.csv
+data/*.xlsx
+*.log
