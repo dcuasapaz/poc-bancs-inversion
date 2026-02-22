@@ -13,3 +13,8 @@ env/
 data/*.csv
 data/*.xlsx
 *.log
+
+# Ignorar todos los archivos CSV en cualquier carpeta
+*.csv
+# Ignorar carpetas de datos
+data/
